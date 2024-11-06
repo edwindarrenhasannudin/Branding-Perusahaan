@@ -55,9 +55,12 @@ header h2 {
 }
 
 nav {
+    position: sticky;
     text-align: center;
     padding: 1rem;
     background-color: #005bb5;
+    top: 0;
+    z-index: 1000;
 }
 
 nav a {
